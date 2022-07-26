@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="styleSheet">
+           <string notr="true">border:1px solid black;
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 83, 200, 250), stop:1 rgba(0, 50, 255, 150));
+</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QFrame" name="frame_24">
+             <property name="minimumSize">
+              <size>
+               <width>600</width>
+               <height>500</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>600</width>
+               <height>600</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:1px solid black;
+border-radius:50px;
+
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 150, 200, 250), stop:1 rgba(0, 50, 255, 150));</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <widget class="QFrame" name="frame_27">
+              <property name="geometry">
+               <rect>
+                <x>150</x>
+                <y>140</y>
+                <width>300</width>
+                <height>300</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>300</width>
+                <height>300</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>600</width>
+                <height>150</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius:25px;
+background-color: rgb(218, 218, 218);
+</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QLineEdit" name="user_login">
+               <property name="geometry">
+                <rect>
+                 <x>66</x>
+                 <y>73</y>
+                 <width>211</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>40</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	background-color: transparent;
+background-color: rgb(75, 61, 184);
+color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string>User</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="password_login">
+               <property name="geometry">
+                <rect>
+                 <x>66</x>
+                 <y>187</y>
+                 <width>211</width>
+                 <height>40</height>
+                </rect>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	background-color: transparent;
+background-color: rgb(75, 61, 184);
+color: rgb(0, 0, 0)</string>
+               </property>
+               <property name="echoMode">
+                <enum>QLineEdit::Password</enum>
+               </property>
+               <property name="placeholderText">
+                <string>Password</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_14">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>68</y>
+                 <width>50</width>
+                 <height>50</height>
+                </rect>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="sizeIncrement">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-radius:10px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>im.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_19">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>182</y>
+                 <width>50</width>
+                 <height>50</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border-radius:0px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>../../Downloads/user (7).png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_20">
+               <property name="geometry">
+                <rect>
+                 <x>100</x>
+                 <y>-50</y>
+                 <width>100</width>
+                 <height>100</height>
+                </rect>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:50px;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>../../Downloads/user (6).png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QFrame" name="frame_25">
+              <property name="geometry">
+               <rect>
+                <x>240</x>
+                <y>0</y>
+                <width>121</width>
+                <height>106</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border:none;
+background-color: transparent;</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+             </widget>
+             <widget class="QFrame" name="frame_26">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>460</y>
+                <width>86</width>
+                <height>44</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius:20px;</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_14">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="login_btn">
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border-radius:10px;
+color: rgb(0, 0, 0);
+border:none;</string>
+                 </property>
+                 <property name="text">
+                  <string>LOGIN</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QLabel" name="label_21">
+              <property name="geometry">
+               <rect>
+                <x>250</x>
+                <y>90</y>
+                <width>100</width>
+                <height>100</height>
+               </rect>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:50px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../../Downloads/user (6).png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+             <zorder>frame_25</zorder>
+             <zorder>frame_26</zorder>
+             <zorder>frame_27</zorder>
+             <zorder>label_21</zorder>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="styleSheet">
+           <string notr="true">border:1px solid black;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

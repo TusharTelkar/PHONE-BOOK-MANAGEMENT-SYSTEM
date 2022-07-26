@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/icons8-upward-arrow-64.png</file>
+    <file>icons/19101755522phonebook.jpg</file>
+    <file>icons/white.png</file>
+    <file>icons/depositphotos_12196378-stock-illustration-communication.jpg</file>
+    <file>icons/facebook_eyes_body.jpg</file>
+    <file>icons/add_icon.svg</file>
+    <file>icons/agenda.svg</file>
+    <file>icons/delete_icon.svg</file>
+    <file>icons/home_icon.svg</file>
+    <file>icons/logout_icon.svg</file>
+    <file>icons/padlock_.svg</file>
+    <file>icons/search_icon.svg</file>
+    <file>icons/search-185.svg</file>
+    <file>icons/update_icon.svg</file>
+    <file>icons/user.svg</file>
+    <file>icons/user_login.svg</file>
+  </qresource>
+</RCC>
